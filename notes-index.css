@@ -1,0 +1,84 @@
+body{
+	background-color:#bdbec0;
+}
+.side-nav{
+	width: 240px;
+}
+i.medium {
+  font-size: 45px;
+  position: absolute !important;
+  margin-top: 220px !important;
+  }
+ .mdi-navigation-menu:before {
+  content: "\e8a1";
+  font-size: 45px;
+  position: absolute !important;
+  margin-top: 240px !important;
+  color: white;
+}
+.side-nav .collapsible-body {
+  border: 0;
+  background-color: #FFF;
+}
+.side-nav li:hover, .side-nav li.active {
+  background-color: #fff;
+}
+.side-nav .collapsible-body li a {
+  margin: 0 0rem 0 0rem;
+}
+.side-nav .collapsible-header {
+  margin-top: 40px;
+  margin-left: 70px;
+  font-size: larger;
+  color: #444;
+  }
+  i.mdi-navigation-arrow-drop-down {
+  margin-right: 5px;
+  margin-top: -5px;
+}
+.side-nav a {
+  height: 50px;
+  line-height: 64px;
+  padding: 0 10px;
+}
+.collapsible-body {
+  display: inline;
+}
+.collapsible.popout>li {
+   width: 300px;
+  margin-bottom: -10px;
+}
+.collapsible-header.sub {
+  margin-left: 112px;
+  margin-bottom: 15px;
+}
+
+.collapsible-body .upload, .collapsible-body .download, .collapsible-body .forum{
+ background-color: transparent;
+  font-size: 40px;
+  color: white;
+  border: 2px outset;
+  border-radius: 45px;
+  margin: 5px 10px 10px 12px;
+  padding: 2px 15px;
+
+-webkit-transition-duration: 0.6s;
+-moz-transition-duration: 0.8s;
+-o-transition-duration: 0.8s;
+transition-duration: 0.6s;
+
+-webkit-transition-property: -webkit-transform;
+-moz-transition-property: -moz-transform;
+-o-transition-property: -o-transform;
+transition-property: transform;
+
+overflow:hidden;
+
+}
+
+.collapsible-body .upload:hover , .collapsible-body .download:hover, .collapsible-body .forum:hover
+{
+-webkit-transform:rotate(360deg);
+-moz-transform:rotate(360deg);
+-o-transform:rotate(360deg);
+}
