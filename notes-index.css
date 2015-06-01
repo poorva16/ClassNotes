@@ -1,8 +1,8 @@
 body{
-	background-color:#bdbec0;
+  background-color:#bdbec0;
 }
 .side-nav{
-	width: 240px;
+  width: 240px;
 }
 i.medium {
   font-size: 45px;
@@ -26,33 +26,35 @@ i.medium {
 .side-nav .collapsible-body li a {
   margin: 0 0rem 0 0rem;
 }
-.side-nav .collapsible-header {
-  margin-top: 40px;
-  margin-left: 70px;
+.side-nav .collapsible-header#main-header {
+  /* margin-top: 40px; */
+  /* margin-left: 70px; */
   font-size: larger;
   color: #444;
-  }
-  i.mdi-navigation-arrow-drop-down {
+  margin: 30px 0px;
+  text-align: left;
+}
+i.mdi-navigation-arrow-drop-down {
   margin-right: 5px;
   margin-top: -5px;
 }
-.side-nav a {
-  height: 50px;
-  line-height: 64px;
-  padding: 0 10px;
-}
-.collapsible-body {
-  display: inline;
+.collapsible-header {
+  display: block;
+  cursor: pointer;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 10px 0rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 .collapsible.popout>li {
-   width: 300px;
-  margin-bottom: -10px;
+  /* box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); */
+  transform: scaleX(.92) translate3d(0, 0, 0);
+  transition: margin .35s cubic-bezier(0.25, 0.46, 0.45, 0.94),transform .35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border-bottom: 1px solid#d9d9d9;
+  box-shadow: none;
 }
-.collapsible-header.sub {
-  margin-left: 112px;
-  margin-bottom: 15px;
-}
-
+/*
 .collapsible-body .upload, .collapsible-body .download, .collapsible-body .forum{
  background-color: transparent;
   font-size: 40px;
@@ -81,4 +83,4 @@ overflow:hidden;
 -webkit-transform:rotate(360deg);
 -moz-transform:rotate(360deg);
 -o-transform:rotate(360deg);
-}
+}*/
