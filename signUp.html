@@ -1,4 +1,3 @@
-
 <style type="text/css">
   .container {
   background: white;
@@ -14,37 +13,30 @@ a.waves-effect.waves-light.btn {
   margin-top: 40px;
 }
 </style>
-
 <div class="container" class="col s5 offset-s12">
   <div class="row">
-    <form ng-controller="formCtrl" autocomplete="off">
-   	  <div class="row">
+    <form>
+      <div class="row">
         <div class="input-field col s6">
-          <input id="first_name" ng-model="first_name" type="text" class="validate">
+          <input id="first_name" type="text" class="validate">
           <label for="first_name">First Name</label>
         </div>
         <div class="input-field col s6">
-          <input id="last_name" type="text" ng-model="last_name" class="validate">
+          <input id="last_name" type="text" class="validate">
           <label for="last_name">Last Name</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s6">
-          <input id="registration" type="text" ng-model="reg_no" class="validate">
+          <input id="registration" type="text" class="validate">
           <label for="regis">Registration Number</label>
         </div>
         <div class="input-field col s6">
-          <input id="password" type="password" ng-model="password" class="validate">
+          <input id="password" type="password" class="validate">
           <label for="password">Password</label>
         </div>
       </div>
-      <a class="waves-effect waves-light btn" ng-click="signUp();">Sign up</a>
-      <li class="err" ng-repeat="error in errors">{{ error}}</li>
-      </ul>
-    <ul>
-      <li class="info" ng-repeat="msg in msgs">{{ msg}}</li>
-    </ul>
+      <a class="waves-effect waves-light btn">Sign up</a>
     </form>
   </div>
 </div>
- 
